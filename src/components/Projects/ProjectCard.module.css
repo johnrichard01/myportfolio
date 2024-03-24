@@ -1,0 +1,62 @@
+@import "../../vars.css";
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 25px;
+    max-width: 345px;
+    border-radius: 10px;
+    height: 550px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.cardImg{
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--font-roboto);
+    margin-bottom: 30px;
+}
+.description{
+    font-size: 1rem;
+    font-family: var(--font-roboto);
+    margin-bottom: 20px;
+}
+.skills{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill{
+    padding: 10px 20px;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: 100px;
+    font-size: 1rem;
+    font-family: var(--font-roboto);
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 100%;
+
+}
+.link{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border-radius: 100px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: var(--font-roboto);
+}
+.link:hover{
+    background-color: var(--color-primary-hover);
+}

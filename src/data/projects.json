@@ -1,0 +1,26 @@
+[
+    {
+        "title": "MerakPay",
+        "imgSrc": "projects/MerakPay.png",
+        "description": "This is a landing page of an online banking website.",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://johnrichard01.github.io/MP-project/",
+        "source": "https://github.com/johnrichard01/MP-project"
+    },
+    {
+        "title": "BuchSan",
+        "imgSrc": "projects/BuchSan.png",
+        "description": "BuchSan is an e-commerce website, that has a goal to bring happiness to everyone with books",
+        "skills": ["HTML", "CSS", "JavaScript", "API"],
+        "demo": "https://johnrichard01.github.io/BuchSan/",
+        "source": "https://github.com/johnrichard01/BuchSan"
+    },
+    {
+        "title": "InkTheUnsaid",
+        "imgSrc": "projects/InkTheUnsaid.png",
+        "description": "InkTheUnsaid is a website where art enthusiasts can post about their work",
+        "skills": ["Laravel", "MySQL", "JavaScript", "API"],
+        "demo": "",
+        "source": "https://github.com/johnrichard01/ExpressYourself-Laravel"
+    }
+]

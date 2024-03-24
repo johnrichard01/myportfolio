@@ -18,7 +18,7 @@ const About = () => {
                         impactful websites.
                     </p>
                 </div>
-                <div>
+                <div className={styles.imgContainer}>
                     <img className={styles.aboutImg} src={getImageUrl('about/aboutImg.png')} alt="me sitting with a computer art" />
                 </div>
             </div>
