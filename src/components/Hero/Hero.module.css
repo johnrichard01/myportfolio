@@ -4,7 +4,7 @@
 .sectionHero{
     padding-top: 180px;
     background-color: var(--color-tertiary);
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .parentContainer{
     display: flex;
@@ -144,5 +144,8 @@
         border-bottom: 3px solid var(--color-dark);
         margin-bottom: 20px;
         margin-right: 0px;
+    }
+    .title{
+        text-align: center;
     }
 }

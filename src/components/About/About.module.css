@@ -1,0 +1,58 @@
+@import "../../vars.css";
+
+.sectionAbout{
+    padding-top: 50px;
+}
+
+.container{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+}
+.about{
+    display: flex;
+}
+.content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+}
+.content h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    font-family: var(--font-roboto);
+    margin-bottom: 40px;
+}
+.content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: var(--font-roboto);
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 1.25rem;
+    font-family: var(--font-roboto);
+    color: var(--color-secondary);
+}
+@media screen and (max-width:830px){
+    .aboutImg{
+        display: none;
+    }
+    .content h3{
+        width: 100%;
+        text-align: center;
+    }
+    .content h1{
+        text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
+}
