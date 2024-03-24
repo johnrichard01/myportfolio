@@ -1,0 +1,30 @@
+[
+    {
+        "title": "HTML",
+        "imgSrc": "hero/htmIcon.png"
+    },
+    {
+        "title": "CSS",
+        "imgSrc": "hero/cssIcon.png"
+    },
+    {
+        "title": "JavaScript",
+        "imgSrc": "hero/javascriptIcon.png"
+    },
+    {
+        "title": "React.js",
+        "imgSrc": "hero/reactIcon.png"
+    },
+    {
+        "title": "PHP",
+        "imgSrc": "hero/phpIcon.png"
+    },
+    {
+        "title": "MySQL",
+        "imgSrc": "hero/mysqlIcon.png"
+    },
+    {
+        "title": "Laravel",
+        "imgSrc": "hero/laravelIcon.png"
+    }
+]
