@@ -38,6 +38,9 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+.menuItems a:hover{
+    color: var(--color-primary);
+}
 .menuBtn{
     display: none;
     width: 40px;

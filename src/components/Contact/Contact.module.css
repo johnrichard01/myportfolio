@@ -1,0 +1,81 @@
+@import "../../vars.css";
+
+.footer{
+    background-color: var(--color-dark);
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    font-family: var(--font-roboto);
+    letter-spacing: 1.75px;
+}
+.text p{
+    margin-top: 20px;
+    color: var(--color-light);
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+.text p img{
+    height: 100px;
+    width: 100px;
+}
+.downIcon{
+    display: none;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.link{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.link img{
+    width: 50px;
+    height: 50px;
+}
+.link a{
+    font-size: 1.5rem;
+    font-family: var(--font-roboto);
+    text-decoration: none;
+    color: var(--color-light);
+}
+.link a:hover{
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column;
+    }
+    .text{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .rightIcon{
+        display: none;
+    }
+    .downIcon{
+        display: block;
+    }
+    .links{
+        align-items: center;
+    }
+}
