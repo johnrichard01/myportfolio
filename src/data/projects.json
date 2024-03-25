@@ -20,7 +20,7 @@
         "imgSrc": "projects/InkTheUnsaid.png",
         "description": "InkTheUnsaid is a website where art enthusiasts can post about their work",
         "skills": ["Laravel", "MySQL", "JavaScript", "API"],
-        "demo": "https://expressyourself-laravel-production.up.railway.app/aboutus",
+        "demo": "https://expressyourself-laravel-production.up.railway.app/",
         "source": "https://github.com/johnrichard01/ExpressYourself-Laravel"
     }
 ]
